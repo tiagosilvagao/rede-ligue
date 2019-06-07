@@ -1,0 +1,80 @@
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <meta name="description">
+    <meta name="author">
+    <meta name="generator">
+    <title>Dispositivos - Rede Ligue</title>
+    
+    <!-- Bootstrap core CSS -->
+<link href="../../css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="../../css/bodi.css" rel="stylesheet">
+<link href="../../css/signin.css" rel="stylesheet">
+<link href="../../css/fontawesome.min.css" rel="stylesheet">
+<link href="../../css/redeligue-font/redeligue-font.css" rel="stylesheet">
+<link href="../../css/dashboard.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+</style>
+    
+  
+		<div id="bg">
+			<img src="../css/image/fundo.jpg" style="magin: 500px auto 500px auto;" alt="">
+		</div>
+		<div class="container form-login">
+			<h1 class="h1-ola">Olá!</h1>
+		<div class="brand_logo_container">
+			<span class="icon-rl-usuario2 rl-3x"></span>
+    </div>
+    <form class="form-signin form-validation" ng-submit="login()" method="post"><!-- input-->
+          
+			<div class="input-group mb-2">
+				<div class="input-group-append">
+					<!--<span class="input-group-text">-->
+					<!--    <span class="icon-rl-cadastrar"></span>-->
+					<!--</span>-->
+				</div>
+				<input style="width: 290px;" type="text" name="email" class="form-control input_user" value="" placeholder="EMAIL" ng-model="username.value">
+			</div>
+			<div class="input-group mb-1">
+				<div class="input-group-append">
+					<!--<span class="input-group-text">-->
+					<!--    <span class="icon-rl-cadeado"></span>-->
+					<!-- </span>-->
+				</div>
+				<input style="width: 290px; type=" type="password" id="password" password="password" name="senha" class="form-control input_pass" value="" ng-required="false" ng-model="password.value" placeholder="SENHA">
+			</div>
+  <div class="checkbox lembrar-me mb-1">
+    <label class="lembrar-check">
+			<input type="checkbox">
+			<span class="lembrar-check-person"></span>
+			<p class="lembrar-me">Lembrar-me</p>
+		</label>
+  </div>
+  <button class="btn btn-lg btn-primary btn-block login_btn" ng-disabled="form.$invalid || vm.dataLoading" ng-click="" xattr-size="" xattr-fullsize="" xattr-theme="btn-default" xattr-disabled="" data-component="crn-button" type="submit">LOGIN</button>
+	<div class="links-cadastro mt-1">
+		<div class="links width-50 align-left">
+			<a href="views/public/cadastro.html">
+			    <span class="icon-rl-usuario-mais"></span> Cadastrar</a>
+		</div>
+		<div class="links width-50 align-right">
+			<a href="views/public/recuperar.html"><span class="icon-rl-cadeado2"></span> Recuperar senha?</a>
+		</div>
+	</div>
+</form>
+		<div class="logo-redeligue">
+		    <img src="../../css/image/logo-redeligue.png" alt="Rede Ligue" style="height:70px; width:180;"></div>
+        </div>
